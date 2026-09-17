@@ -37,6 +37,3 @@ def view_patient(patient_id: str = Path(..., description='ID of the patient in d
     else:
         return { 'Patient nopt found' }
 
-
-    ''' HTTP Exception'''
-'''raise HTTPException(status_code=404 , details='patient not found')'''
